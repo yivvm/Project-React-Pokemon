@@ -1,3 +1,31 @@
+# Pokémon React App
+
+This is a simple React application that fetches and displays a list of Pokémon from the PokeAPI.   
+It includes pagination functionality to navigate through the list of Pokémon.
+
+## Components
+
+The application consists of the following components:
+
+### App
+
+The main component of the application. It fetches data from the PokeAPI and manages the state of the Pokémon list and pagination URLs.
+
+### PokemonList
+
+A functional component responsible for rendering the list of Pokémon received from the App component.
+
+### Pagination
+
+A functional component that provides navigation controls to move between pages of Pokémon.
+
+## Dependencies
+
+- React: A JavaScript library for building user interfaces.
+- axios: A promise-based HTTP client for making AJAX requests.
+- Pagination: A custom pagination component.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,4 +96,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Project-React-Pokemon
+
+
+Source: https://youtu.be/o3ZUc7zH8BE?si=wxBeQxWsq2nvzS-Z
